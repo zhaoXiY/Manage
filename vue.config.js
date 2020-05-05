@@ -86,11 +86,11 @@ const vueConfig = {
 
   devServer: {
     // development server port 8000
-    host: '192.168.0.104',
+    host: '192.168.1.4',
     port: 8080, // 端口号
     https: false, // https:{type:Boolean}
     open: true,
-    proxy: 'http://139.159.254.105:8080'
+    proxy: 'http://112.126.65.197:8080'
   },
 
   // disable source map in production
